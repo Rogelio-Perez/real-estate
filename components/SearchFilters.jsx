@@ -137,7 +137,7 @@ export default function SearchFilters() {
                     marginTop="5"
                     marginBottom="5"
                   >
-                    <Image src={noresult} />
+                    <Image src={noresult} alt="no result" />
                     <Text fontSize="xl" marginTop="3">
                       Waiting to search!
                     </Text>
