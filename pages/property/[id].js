@@ -49,7 +49,8 @@ const PropertyDetails = ({
         w="250px"
         color="blue.400"
       >
-        {rooms} <FaBed /> | <FaBath /> |{millify(area)} sqft <BsGridFill />
+        {rooms} <FaBed /> | {baths} <FaBath /> |{millify(area)} sqft{" "}
+        <BsGridFill />
       </Flex>
       <Box marginTop="2">
         <Text fontSize="lg" marginBottom="2" fontWeight="bold">
